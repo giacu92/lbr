@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -8216,7 +8216,7 @@
 <rectangle x1="24.4475" y1="3.8735" x2="24.5745" y2="4.0005" layer="21"/>
 </package>
 <package name="LOGO_PICCOLO">
-<polygon width="0.0254" layer="22">
+<polygon width="0.0254" layer="102">
 <vertex x="3.32105" y="1.33985"/>
 <vertex x="3.32105" y="1.603375"/>
 <vertex x="3.317875" y="2.365375"/>
@@ -8313,7 +8313,7 @@
 <vertex x="3.44563125" y="1.3441125"/>
 <vertex x="3.323346875" y="1.33998125"/>
 </polygon>
-<polygon width="0.0254" layer="22">
+<polygon width="0.0254" layer="102">
 <vertex x="2.455721875" y="1.31189375"/>
 <vertex x="2.31608125" y="1.306109375"/>
 <vertex x="1.83435625" y="1.29454375"/>
@@ -8408,7 +8408,7 @@
 <vertex x="2.49290625" y="1.459771875"/>
 <vertex x="2.46068125" y="1.316025"/>
 </polygon>
-<polygon width="0.0254" layer="22">
+<polygon width="0.0254" layer="102">
 <vertex x="3.296878125" y="1.3259375"/>
 <vertex x="3.29853125" y="1.1243625"/>
 <vertex x="3.292746875" y="1.02853125"/>
@@ -8472,7 +8472,7 @@
 <vertex x="2.844075" y="1.3085875"/>
 <vertex x="3.296053125" y="1.324284375"/>
 </polygon>
-<polygon width="0.0254" layer="22">
+<polygon width="0.0254" layer="102">
 <vertex x="3.32105" y="1.33985"/>
 <vertex x="3.32105" y="1.603375"/>
 <vertex x="3.317875" y="2.365375"/>
@@ -8569,7 +8569,7 @@
 <vertex x="3.44563125" y="1.3441125"/>
 <vertex x="3.323346875" y="1.33998125"/>
 </polygon>
-<polygon width="0.0254" layer="22">
+<polygon width="0.0254" layer="102">
 <vertex x="2.455721875" y="1.31189375"/>
 <vertex x="2.31608125" y="1.306109375"/>
 <vertex x="1.83435625" y="1.29454375"/>
@@ -8664,7 +8664,7 @@
 <vertex x="2.49290625" y="1.459771875"/>
 <vertex x="2.46068125" y="1.316025"/>
 </polygon>
-<polygon width="0.0254" layer="22">
+<polygon width="0.0254" layer="102">
 <vertex x="3.296878125" y="1.3259375"/>
 <vertex x="3.29853125" y="1.1243625"/>
 <vertex x="3.292746875" y="1.02853125"/>

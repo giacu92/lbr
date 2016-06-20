@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -8216,7 +8216,7 @@
 <rectangle x1="24.4475" y1="3.8735" x2="24.5745" y2="4.0005" layer="21"/>
 </package>
 <package name="LOGO_PICCOLO">
-<polygon width="0.0254" layer="22">
+<polygon width="0.0254" layer="102">
 <vertex x="3.32105" y="1.33985"/>
 <vertex x="3.32105" y="1.603375"/>
 <vertex x="3.317875" y="2.365375"/>
@@ -8313,7 +8313,7 @@
 <vertex x="3.44563125" y="1.3441125"/>
 <vertex x="3.323346875" y="1.33998125"/>
 </polygon>
-<polygon width="0.0254" layer="22">
+<polygon width="0.0254" layer="102">
 <vertex x="2.455721875" y="1.31189375"/>
 <vertex x="2.31608125" y="1.306109375"/>
 <vertex x="1.83435625" y="1.29454375"/>
@@ -8408,7 +8408,7 @@
 <vertex x="2.49290625" y="1.459771875"/>
 <vertex x="2.46068125" y="1.316025"/>
 </polygon>
-<polygon width="0.0254" layer="22">
+<polygon width="0.0254" layer="102">
 <vertex x="3.296878125" y="1.3259375"/>
 <vertex x="3.29853125" y="1.1243625"/>
 <vertex x="3.292746875" y="1.02853125"/>
@@ -8472,7 +8472,7 @@
 <vertex x="2.844075" y="1.3085875"/>
 <vertex x="3.296053125" y="1.324284375"/>
 </polygon>
-<polygon width="0.0254" layer="22">
+<polygon width="0.0254" layer="102">
 <vertex x="3.32105" y="1.33985"/>
 <vertex x="3.32105" y="1.603375"/>
 <vertex x="3.317875" y="2.365375"/>
@@ -8569,7 +8569,7 @@
 <vertex x="3.44563125" y="1.3441125"/>
 <vertex x="3.323346875" y="1.33998125"/>
 </polygon>
-<polygon width="0.0254" layer="22">
+<polygon width="0.0254" layer="102">
 <vertex x="2.455721875" y="1.31189375"/>
 <vertex x="2.31608125" y="1.306109375"/>
 <vertex x="1.83435625" y="1.29454375"/>
@@ -8664,7 +8664,7 @@
 <vertex x="2.49290625" y="1.459771875"/>
 <vertex x="2.46068125" y="1.316025"/>
 </polygon>
-<polygon width="0.0254" layer="22">
+<polygon width="0.0254" layer="102">
 <vertex x="3.296878125" y="1.3259375"/>
 <vertex x="3.29853125" y="1.1243625"/>
 <vertex x="3.292746875" y="1.02853125"/>
@@ -8819,18 +8819,18 @@
 <package name="MN3005">
 <pad name="P$1" x="-8.89" y="-3.81" drill="0.9" shape="square"/>
 <pad name="P$2" x="-6.35" y="-3.81" drill="0.9"/>
-<pad name="P$3" x="3.81" y="-3.81" drill="0.9"/>
-<pad name="P$4" x="6.35" y="-3.81" drill="0.9"/>
-<pad name="P$5" x="6.35" y="3.81" drill="0.9"/>
-<pad name="P$6" x="3.81" y="3.81" drill="0.9"/>
+<pad name="P$3" x="6.35" y="-3.81" drill="0.9"/>
+<pad name="P$4" x="8.89" y="-3.81" drill="0.9"/>
+<pad name="P$5" x="8.89" y="3.81" drill="0.9"/>
+<pad name="P$6" x="6.35" y="3.81" drill="0.9"/>
 <pad name="P$7" x="-6.35" y="3.81" drill="0.9"/>
 <pad name="P$8" x="-8.89" y="3.81" drill="0.9"/>
 <wire x1="-10.16" y1="2.54" x2="-10.16" y2="0.635" width="0.127" layer="21"/>
 <wire x1="-10.16" y1="0.635" x2="-10.16" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="-10.16" y1="-0.635" x2="-10.16" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="-2.54" x2="7.62" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-2.54" x2="7.62" y2="2.54" width="0.127" layer="21"/>
-<wire x1="7.62" y1="2.54" x2="-10.16" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-2.54" x2="10.16" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="2.54" width="0.127" layer="21"/>
+<wire x1="10.16" y1="2.54" x2="-10.16" y2="2.54" width="0.127" layer="21"/>
 <wire x1="-10.16" y1="0.635" x2="-9.525" y2="0" width="0.127" layer="21" curve="-90"/>
 <wire x1="-9.525" y1="0" x2="-10.16" y2="-0.635" width="0.127" layer="21" curve="-90"/>
 <circle x="-8.89" y="-1.27" radius="0.3175" width="0.127" layer="21"/>
@@ -8994,7 +8994,6 @@
 <text x="-1.27" y="-8.89" size="1.016" layer="94" font="vector" ratio="15">6</text>
 <text x="-11.43" y="0.635" size="1.016" layer="94" font="vector" ratio="15">7</text>
 <text x="6.35" y="-8.89" size="1.016" layer="94" font="vector" ratio="15">8</text>
-<text x="-2.54" y="-5.08" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="TDA2822">
 <wire x1="-5.08" y1="7.61949375" x2="7.62" y2="-0.000509375" width="0.254" layer="94"/>
@@ -9140,7 +9139,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MN3005" prefix="IC">
+<deviceset name="MN3005">
 <gates>
 <gate name="G$1" symbol="MN3005" x="0" y="0"/>
 </gates>

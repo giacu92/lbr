@@ -1026,16 +1026,16 @@ grid 2.54 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2SC1815" prefix="Q">
+<deviceset name="2SC1815">
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO92-">
 <connects>
-<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="B" pad="3"/>
 <connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1043,9 +1043,9 @@ grid 2.54 mm</description>
 </device>
 <device name="1" package="TO92">
 <connects>
-<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="B" pad="3"/>
 <connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1053,9 +1053,9 @@ grid 2.54 mm</description>
 </device>
 <device name="B2" package="TO92-B2">
 <connects>
-<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="B" pad="3"/>
 <connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1063,9 +1063,9 @@ grid 2.54 mm</description>
 </device>
 <device name="L2" package="TO92-L2">
 <connects>
-<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="B" pad="3"/>
 <connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1073,9 +1073,9 @@ grid 2.54 mm</description>
 </device>
 <device name="R2" package="TO92-R2">
 <connects>
-<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="B" pad="3"/>
 <connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>

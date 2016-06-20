@@ -3672,26 +3672,14 @@ Source: MC68020UM.pdf</description>
 </package>
 <package name="SOCKET-08">
 <description>&lt;b&gt;Dual In Line Socket&lt;/b&gt;</description>
-<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="-5.08" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="5" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="6" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="3" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="7" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="8" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="square" rot="R90"/>
+<pad name="2" x="-1.27" y="-3.81" drill="0.8128" rot="R90"/>
+<pad name="5" x="3.81" y="3.81" drill="0.8128" rot="R90"/>
+<pad name="6" x="1.27" y="3.81" drill="0.8128" rot="R90"/>
+<pad name="3" x="1.27" y="-3.81" drill="0.8128" rot="R90"/>
+<pad name="4" x="3.81" y="-3.81" drill="0.8128" rot="R90"/>
+<pad name="7" x="-1.27" y="3.81" drill="0.8128" rot="R90"/>
+<pad name="8" x="-3.81" y="3.81" drill="0.8128" rot="R90"/>
 <text x="-3.048" y="-0.508" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-5.461" y="-2.667" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 </package>
