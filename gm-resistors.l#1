@@ -381,7 +381,7 @@ spacing: 2 holes
 <wire x1="1.54" y1="-0.762" x2="1.54" y2="0.762" width="0.1524" layer="21"/>
 <pad name="1" x="-2.54" y="0" drill="0.7"/>
 <pad name="2" x="2.54" y="0" drill="0.7"/>
-<text x="-1.27" y="-0.635" size="1.27" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="-1.27" y="1.27" size="1.27" layer="25" font="vector" ratio="12">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27" font="vector" ratio="12">&gt;VALUE</text>
 </package>
 <package name="R0204/4">
