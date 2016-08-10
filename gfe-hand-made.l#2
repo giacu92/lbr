@@ -1139,7 +1139,18 @@ Source: http://www.lumberg.de/Produkte/PDFs/KLBRSS3.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TDA2822" prefix="IC">
+<deviceset name="TDA2822">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LF353" prefix="IC">
 <description>&lt;b&gt;TDA2822&lt;/b&gt; Double amplifier</description>
 <gates>
 <gate name="A" symbol="OPAMP" x="5.08" y="0" swaplevel="1"/>

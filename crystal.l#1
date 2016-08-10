@@ -214,6 +214,14 @@
 <rectangle x1="4.318" y1="-2.286" x2="4.826" y2="2.286" layer="43"/>
 <rectangle x1="4.826" y1="-1.778" x2="5.334" y2="1.778" layer="43"/>
 <rectangle x1="5.334" y1="-1.016" x2="5.588" y2="1.016" layer="43"/>
+<polygon width="0.127" layer="29">
+<vertex x="-3.81" y="2.54"/>
+<vertex x="3.81" y="2.54" curve="-90"/>
+<vertex x="6.35" y="0" curve="-90"/>
+<vertex x="3.81" y="-2.54"/>
+<vertex x="-3.81" y="-2.54" curve="-90"/>
+<vertex x="-6.35" y="0" curve="-90"/>
+</polygon>
 </package>
 <package name="HC33U-H">
 <description>&lt;b&gt;CRYSTAL&lt;/b&gt;</description>

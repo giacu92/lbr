@@ -875,7 +875,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="063-EU" prefix="C">
+<deviceset name="063-EU">
 <gates>
 <gate name="G$1" symbol="CPOL-EU" x="0" y="-2.54"/>
 </gates>

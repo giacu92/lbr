@@ -1139,8 +1139,19 @@ Source: http://www.lumberg.de/Produkte/PDFs/KLBRSS3.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TDA2822" prefix="IC">
-<description>&lt;b&gt;TDA2822&lt;/b&gt; Double amplifier</description>
+<deviceset name="TDA2822">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LF353" prefix="IC">
+<description>&lt;b&gt;OP AMP&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="OPAMP" x="5.08" y="0" swaplevel="1"/>
 <gate name="B" symbol="OPAMP" x="27.94" y="0" swaplevel="1"/>
@@ -1148,6 +1159,21 @@ Source: http://www.lumberg.de/Produkte/PDFs/KLBRSS3.pdf</description>
 </gates>
 <devices>
 <device name="N" package="DIL08">
+<connects>
+<connect gate="A" pin="+IN" pad="6"/>
+<connect gate="A" pin="-IN" pad="5"/>
+<connect gate="A" pin="OUT" pad="3"/>
+<connect gate="B" pin="+IN" pad="7"/>
+<connect gate="B" pin="-IN" pad="8"/>
+<connect gate="B" pin="OUT" pad="1"/>
+<connect gate="P" pin="V+" pad="2"/>
+<connect gate="P" pin="V-" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="D" package="SO08">
 <connects>
 <connect gate="A" pin="+IN" pad="6"/>
 <connect gate="A" pin="-IN" pad="5"/>
