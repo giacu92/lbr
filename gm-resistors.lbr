@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -122,22 +122,22 @@ spacing: 3 holes
 &lt;p&gt;This length resistor applies to 1/4 watt metal film.</description>
 <wire x1="3.81" y1="0" x2="3.0386" y2="0" width="0.6096" layer="51"/>
 <wire x1="-3.81" y1="0" x2="-3.0386" y2="0" width="0.6096" layer="51"/>
-<wire x1="-2.81" y1="0.762" x2="-2.556" y2="1.016" width="0.1016" layer="21" curve="-90"/>
-<wire x1="-2.81" y1="-0.762" x2="-2.556" y2="-1.016" width="0.1016" layer="21" curve="90"/>
-<wire x1="2.556" y1="-1.016" x2="2.81" y2="-0.762" width="0.1016" layer="21" curve="90"/>
-<wire x1="2.556" y1="1.016" x2="2.81" y2="0.762" width="0.1016" layer="21" curve="-90"/>
-<wire x1="-2.81" y1="-0.762" x2="-2.81" y2="0.762" width="0.1016" layer="21"/>
-<wire x1="-2.556" y1="1.016" x2="-1.54" y2="1.016" width="0.1016" layer="21"/>
-<wire x1="-1.413" y1="0.889" x2="-1.54" y2="1.016" width="0.1016" layer="21"/>
-<wire x1="-2.556" y1="-1.016" x2="-1.54" y2="-1.016" width="0.1016" layer="21"/>
-<wire x1="-1.413" y1="-0.889" x2="-1.54" y2="-1.016" width="0.1016" layer="21"/>
-<wire x1="1.413" y1="0.889" x2="1.54" y2="1.016" width="0.1016" layer="21"/>
-<wire x1="1.413" y1="0.889" x2="-1.413" y2="0.889" width="0.1016" layer="21"/>
-<wire x1="1.413" y1="-0.889" x2="1.54" y2="-1.016" width="0.1016" layer="21"/>
-<wire x1="1.413" y1="-0.889" x2="-1.413" y2="-0.889" width="0.1016" layer="21"/>
-<wire x1="2.556" y1="1.016" x2="1.54" y2="1.016" width="0.1016" layer="21"/>
-<wire x1="2.556" y1="-1.016" x2="1.54" y2="-1.016" width="0.1016" layer="21"/>
-<wire x1="2.81" y1="-0.762" x2="2.81" y2="0.762" width="0.1016" layer="21"/>
+<wire x1="-2.81" y1="0.762" x2="-2.556" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.81" y1="-0.762" x2="-2.556" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.556" y1="-1.016" x2="2.81" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.556" y1="1.016" x2="2.81" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.81" y1="-0.762" x2="-2.81" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.556" y1="1.016" x2="-1.54" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-1.413" y1="0.889" x2="-1.54" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-2.556" y1="-1.016" x2="-1.54" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-1.413" y1="-0.889" x2="-1.54" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.413" y1="0.889" x2="1.54" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.413" y1="0.889" x2="-1.413" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="1.413" y1="-0.889" x2="1.54" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.413" y1="-0.889" x2="-1.413" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="2.556" y1="1.016" x2="1.54" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="2.556" y1="-1.016" x2="1.54" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.81" y1="-0.762" x2="2.81" y2="0.762" width="0.1524" layer="21"/>
 <pad name="1" x="-3.81" y="0" drill="0.7"/>
 <pad name="2" x="3.81" y="0" drill="0.7"/>
 <text x="-1.27" y="-0.635" size="1.27" layer="25" font="vector" ratio="12">&gt;NAME</text>
@@ -381,7 +381,7 @@ spacing: 2 holes
 <wire x1="1.54" y1="-0.762" x2="1.54" y2="0.762" width="0.1524" layer="21"/>
 <pad name="1" x="-2.54" y="0" drill="0.7"/>
 <pad name="2" x="2.54" y="0" drill="0.7"/>
-<text x="-1.27" y="-0.635" size="1.27" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="-1.27" y="1.27" size="1.27" layer="25" font="vector" ratio="12">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27" font="vector" ratio="12">&gt;VALUE</text>
 </package>
 <package name="R0204/4">

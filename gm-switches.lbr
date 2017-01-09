@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -115,6 +115,8 @@ Marquardt</description>
 <pad name="2" x="1.27" y="0" drill="0.7" shape="square"/>
 <pad name="1" x="-1.27" y="0" drill="0.7" shape="square"/>
 <text x="-2.54" y="1.27" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<text x="-2.54" y="-1.27" size="0.8128" layer="21" ratio="12">1</text>
+<text x="1.905" y="-1.27" size="0.8128" layer="21" ratio="12">2</text>
 </package>
 <package name="SPSTX4">
 <pad name="2" x="-3.81" y="1.27" drill="0.7" shape="square" rot="R90"/>
@@ -149,12 +151,12 @@ Marquardt</description>
 <wire x1="6.35" y1="7.62" x2="6.35" y2="-7.62" width="0.1524" layer="21"/>
 <wire x1="6.35" y1="-7.62" x2="-6.35" y2="-7.62" width="0.1524" layer="21"/>
 <wire x1="-6.35" y1="-7.62" x2="-6.35" y2="7.62" width="0.1524" layer="21"/>
-<pad name="A1" x="-2.54" y="5.08" drill="2" rot="R180"/>
-<pad name="A2" x="-2.54" y="0" drill="2" rot="R180"/>
-<pad name="A3" x="-2.54" y="-5.08" drill="2" rot="R180"/>
-<pad name="B1" x="2.54" y="5.08" drill="2" rot="R180"/>
-<pad name="B2" x="2.54" y="0" drill="2" rot="R180"/>
-<pad name="B3" x="2.54" y="-5.08" drill="2" rot="R180"/>
+<pad name="A1" x="-2.54" y="5.08" drill="0.7" shape="square" rot="R180"/>
+<pad name="A2" x="-2.54" y="0" drill="0.7" shape="square" rot="R180"/>
+<pad name="A3" x="-2.54" y="-5.08" drill="0.7" shape="square" rot="R180"/>
+<pad name="B1" x="2.54" y="5.08" drill="0.7" shape="square" rot="R180"/>
+<pad name="B2" x="2.54" y="0" drill="0.7" shape="square" rot="R180"/>
+<pad name="B3" x="2.54" y="-5.08" drill="0.7" shape="square" rot="R180"/>
 <text x="-2.54" y="8.255" size="1.27" layer="25" ratio="12">A</text>
 <text x="2.54" y="8.255" size="1.27" layer="25" ratio="12">B</text>
 <text x="-8.89" y="4.445" size="1.27" layer="25" ratio="12">1</text>
@@ -295,49 +297,6 @@ Marquardt</description>
 <text x="-4.445" y="-3.81" size="1.778" layer="95">&gt;NAME</text>
 <pin name="P" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
 <pin name="S" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="ON-ON-ON">
-<pin name="1" x="-10.16" y="7.62" length="short" rot="R270"/>
-<pin name="2" x="0" y="7.62" length="short" rot="R270"/>
-<pin name="3" x="10.16" y="7.62" length="short" rot="R270"/>
-<pin name="4" x="-10.16" y="-7.62" length="short" rot="R90"/>
-<pin name="5" x="0" y="-7.62" length="short" rot="R90"/>
-<pin name="6" x="10.16" y="-7.62" length="short" rot="R90"/>
-<wire x1="-12.7" y1="5.08" x2="-12.7" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-5.08" x2="-11.43" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-11.43" y1="-5.08" x2="-8.89" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-8.89" y1="-5.08" x2="-1.27" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-5.08" x2="1.27" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="8.89" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="8.89" y1="-5.08" x2="11.43" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="11.43" y1="-5.08" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-5.08" x2="12.7" y2="5.08" width="0.254" layer="94"/>
-<wire x1="12.7" y1="5.08" x2="11.43" y2="5.08" width="0.254" layer="94"/>
-<wire x1="11.43" y1="5.08" x2="8.89" y2="5.08" width="0.254" layer="94"/>
-<wire x1="8.89" y1="5.08" x2="1.27" y2="5.08" width="0.254" layer="94"/>
-<wire x1="1.27" y1="5.08" x2="-1.27" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="5.08" x2="-8.89" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-8.89" y1="5.08" x2="-11.43" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-11.43" y1="5.08" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-11.43" y1="5.08" x2="-11.43" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-11.43" y1="3.81" x2="-8.89" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-8.89" y1="3.81" x2="-8.89" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="5.08" x2="-1.27" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="3.81" x2="1.27" y2="3.81" width="0.254" layer="94"/>
-<wire x1="1.27" y1="3.81" x2="1.27" y2="5.08" width="0.254" layer="94"/>
-<wire x1="8.89" y1="5.08" x2="8.89" y2="3.81" width="0.254" layer="94"/>
-<wire x1="8.89" y1="3.81" x2="11.43" y2="3.81" width="0.254" layer="94"/>
-<wire x1="11.43" y1="3.81" x2="11.43" y2="5.08" width="0.254" layer="94"/>
-<wire x1="11.43" y1="-5.08" x2="11.43" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="11.43" y1="-3.81" x2="8.89" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="8.89" y1="-3.81" x2="8.89" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-3.81" x2="-1.27" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-3.81" x2="-1.27" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-8.89" y1="-5.08" x2="-8.89" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-8.89" y1="-3.81" x2="-11.43" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-11.43" y1="-3.81" x2="-11.43" y2="-5.08" width="0.254" layer="94"/>
-<text x="-5.08" y="0" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -504,26 +463,6 @@ Marquardt</description>
 <connects>
 <connect gate="G$1" pin="P" pad="1"/>
 <connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ON-ON-ON" prefix="SW">
-<gates>
-<gate name="G$1" symbol="ON-ON-ON" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DPDT">
-<connects>
-<connect gate="G$1" pin="1" pad="A1"/>
-<connect gate="G$1" pin="2" pad="A2"/>
-<connect gate="G$1" pin="3" pad="A3"/>
-<connect gate="G$1" pin="4" pad="B1"/>
-<connect gate="G$1" pin="5" pad="B2"/>
-<connect gate="G$1" pin="6" pad="B3"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -9907,8 +9907,8 @@ diameter 3.5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="-4.572" y1="-1.778" x2="4.572" y2="-1.778" width="0.1524" layer="21"/>
 <wire x1="7.62" y1="0" x2="6.35" y2="0" width="1.1176" layer="51"/>
 <wire x1="-7.62" y1="0" x2="-6.35" y2="0" width="1.1176" layer="51"/>
-<pad name="C" x="-7.62" y="0" drill="1.397"/>
-<pad name="A" x="7.62" y="0" drill="1.397"/>
+<pad name="C" x="-7.62" y="0" drill="1.397" shape="long"/>
+<pad name="A" x="7.62" y="0" drill="1.397" shape="long"/>
 <text x="-4.572" y="2.159" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.794" y="-1.397" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-3.81" y1="-1.778" x2="-3.302" y2="1.778" layer="21"/>
