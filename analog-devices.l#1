@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -34523,40 +34523,9 @@ Source: http://www.analog.com/static/imported-files/data_sheets/ADUC845_847_848.
 </deviceset>
 <deviceset name="AD1854">
 <gates>
-<gate name="G$1" symbol="AD1854" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TSSOP28">
-<connects>
-<connect gate="G$1" pin="!PD/RST" pad="24"/>
-<connect gate="G$1" pin="384/!256" pad="6"/>
-<connect gate="G$1" pin="96/!48" pad="10"/>
-<connect gate="G$1" pin="AGND" pad="11"/>
-<connect gate="G$1" pin="AGND2" pad="15"/>
-<connect gate="G$1" pin="AVDD" pad="18"/>
-<connect gate="G$1" pin="BCLK" pad="26"/>
-<connect gate="G$1" pin="CCLK" pad="4"/>
-<connect gate="G$1" pin="CDATA" pad="5"/>
-<connect gate="G$1" pin="CLATCH" pad="3"/>
-<connect gate="G$1" pin="DEEMP" pad="9"/>
-<connect gate="G$1" pin="DGND" pad="1"/>
-<connect gate="G$1" pin="DVDD" pad="28"/>
-<connect gate="G$1" pin="FILTB" pad="19"/>
-<connect gate="G$1" pin="FILTR" pad="14"/>
-<connect gate="G$1" pin="IDPM0" pad="21"/>
-<connect gate="G$1" pin="IDPM1" pad="20"/>
-<connect gate="G$1" pin="L/!RCLK" pad="25"/>
-<connect gate="G$1" pin="MCLK" pad="2"/>
-<connect gate="G$1" pin="MUTE" pad="23"/>
-<connect gate="G$1" pin="OUTL+" pad="17"/>
-<connect gate="G$1" pin="OUTL-" pad="16"/>
-<connect gate="G$1" pin="OUTR+" pad="12"/>
-<connect gate="G$1" pin="OUTR-" pad="13"/>
-<connect gate="G$1" pin="SDATA" pad="27"/>
-<connect gate="G$1" pin="X2MCLK" pad="7"/>
-<connect gate="G$1" pin="ZEROL" pad="22"/>
-<connect gate="G$1" pin="ZEROR" pad="8"/>
-</connects>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
