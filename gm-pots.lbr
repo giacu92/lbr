@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -543,9 +543,9 @@ http://www.mouser.it/ProductDetail/Alpha-Taiwan/RV141F-40E3-18BL-B10K/?qs=rXqtSH
 <wire x1="-5.5" y1="-10" x2="-5.5" y2="-11" width="0.127" layer="21"/>
 <wire x1="-5.5" y1="-11" x2="-6.5" y2="-11" width="0.127" layer="21"/>
 <wire x1="-6.5" y1="-11" x2="-6.5" y2="-10" width="0.127" layer="21"/>
-<pad name="3" x="-4" y="-11" drill="1" diameter="1.9304" shape="square"/>
-<pad name="2" x="0" y="-11" drill="1" diameter="1.9304" shape="square"/>
-<pad name="1" x="4" y="-11" drill="1" diameter="1.9304" shape="square"/>
+<pad name="P1" x="-4" y="-11" drill="1" diameter="1.9304" shape="square"/>
+<pad name="P2" x="0" y="-11" drill="1" diameter="1.9304" shape="square"/>
+<pad name="P3" x="4" y="-11" drill="1" diameter="1.9304" shape="square"/>
 <circle x="0" y="0" radius="2" width="0.127" layer="21"/>
 <wire x1="-1" y1="3" x2="-7" y2="3" width="0.127" layer="21"/>
 <wire x1="-7" y1="3" x2="-7.5" y2="3" width="0.127" layer="21"/>
@@ -570,11 +570,11 @@ http://www.mouser.it/ProductDetail/Alpha-Taiwan/RV141F-40E3-18BL-B10K/?qs=rXqtSH
 <wire x1="-7" y1="0.5" x2="-7" y2="-0.5" width="0.127" layer="21"/>
 <text x="-5.5" y="1" size="1.27" layer="21">B</text>
 <text x="4.5" y="1" size="1.27" layer="21">4</text>
-<text x="-4.5" y="-9.5" size="1.27" layer="21">3</text>
-<text x="-0.5" y="-9.5" size="1.27" layer="21">2</text>
-<text x="4" y="-9.5" size="1.27" layer="21">1</text>
-<text x="-2.5" y="4.5" size="1.27" layer="25">NAME</text>
-<text x="-2.5" y="-6" size="1.27" layer="27">VALUE</text>
+<text x="4.39" y="-8.865" size="1.27" layer="21" align="center">3</text>
+<text x="0.135" y="-8.865" size="1.27" layer="21" align="center">2</text>
+<text x="-4.255" y="-8.865" size="1.27" layer="21" align="center">1</text>
+<text x="-2.5" y="4.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.5" y="-6" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="SOLDER-PIN">
 <circle x="0" y="0" radius="3.175" width="0.127" layer="21"/>
@@ -814,6 +814,27 @@ http://www.mouser.it/ProductDetail/Alpha-Taiwan/RV141F-40E3-18BL-B10K/?qs=rXqtSH
 <wire x1="5.3" y1="-0.3" x2="4.9" y2="-0.3" width="0.05" layer="21"/>
 <wire x1="5.3" y1="-0.3" x2="5.3" y2="1.7" width="0.05" layer="21"/>
 </package>
+<package name="DG-PIN">
+<pad name="1-1" x="-7.62" y="0" drill="0.8" shape="square"/>
+<pad name="1-2" x="-5.08" y="0" drill="0.8"/>
+<pad name="1-3" x="-2.54" y="0" drill="0.8"/>
+<text x="-8.89" y="0" size="0.6096" layer="21" font="vector" ratio="16" align="center">1</text>
+<pad name="2-1" x="2.54" y="0" drill="0.8" shape="square"/>
+<pad name="2-2" x="5.08" y="0" drill="0.8"/>
+<pad name="2-3" x="7.62" y="0" drill="0.8"/>
+<wire x1="8.89" y1="-1.27" x2="8.89" y2="1.27" width="0.127" layer="21"/>
+<text x="1.27" y="0" size="0.6096" layer="21" font="vector" ratio="16" align="center">1</text>
+<wire x1="-8.89" y1="-1.27" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-8.89" y2="1.27" width="0.127" layer="21"/>
+<wire x1="8.89" y1="1.27" x2="1.27" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="8.89" y2="-1.27" width="0.127" layer="21"/>
+<text x="0" y="2.54" size="1.27" layer="21" align="center">&gt;NAME</text>
+<wire x1="-8.89" y1="-0.635" x2="-8.89" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="1.27" x2="-8.89" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="-0.635" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="POT">
@@ -902,14 +923,14 @@ http://www.mouser.it/ProductDetail/Alpha-Taiwan/RV141F-40E3-18BL-B10K/?qs=rXqtSH
 &lt;/ul&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="POT-GFE" x="0" y="0"/>
+<gate name="G$1" symbol="POT" x="2.54" y="0"/>
 </gates>
 <devices>
 <device name="" package="POT">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -917,9 +938,9 @@ http://www.mouser.it/ProductDetail/Alpha-Taiwan/RV141F-40E3-18BL-B10K/?qs=rXqtSH
 </device>
 <device name="TRIM" package="B25P">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -927,9 +948,9 @@ http://www.mouser.it/ProductDetail/Alpha-Taiwan/RV141F-40E3-18BL-B10K/?qs=rXqtSH
 </device>
 <device name="TRIM3/8" package="B375P">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -937,9 +958,9 @@ http://www.mouser.it/ProductDetail/Alpha-Taiwan/RV141F-40E3-18BL-B10K/?qs=rXqtSH
 </device>
 <device name="O" package="16MM-OCTA">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -947,19 +968,9 @@ http://www.mouser.it/ProductDetail/Alpha-Taiwan/RV141F-40E3-18BL-B10K/?qs=rXqtSH
 </device>
 <device name="R" package="16MM-ROUND">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-<connect gate="G$1" pin="P$3" pad="P$3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="S" package="16MM-SQUARE">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -967,9 +978,9 @@ http://www.mouser.it/ProductDetail/Alpha-Taiwan/RV141F-40E3-18BL-B10K/?qs=rXqtSH
 </device>
 <device name="PCB" package="16MM-PCB-MOUNT">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -977,9 +988,9 @@ http://www.mouser.it/ProductDetail/Alpha-Taiwan/RV141F-40E3-18BL-B10K/?qs=rXqtSH
 </device>
 <device name="NORMAL" package="16MM">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -987,9 +998,9 @@ http://www.mouser.it/ProductDetail/Alpha-Taiwan/RV141F-40E3-18BL-B10K/?qs=rXqtSH
 </device>
 <device name="CLEARSHAFT" package="CLEAR-SHAFT">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="1" pad="P1"/>
+<connect gate="G$1" pin="2" pad="P2"/>
+<connect gate="G$1" pin="3" pad="P3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -997,9 +1008,9 @@ http://www.mouser.it/ProductDetail/Alpha-Taiwan/RV141F-40E3-18BL-B10K/?qs=rXqtSH
 </device>
 <device name="16MM-MONO" package="SOLDER-PIN">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1007,9 +1018,9 @@ http://www.mouser.it/ProductDetail/Alpha-Taiwan/RV141F-40E3-18BL-B10K/?qs=rXqtSH
 </device>
 <device name="BANZAI" package="9MM">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1067,6 +1078,19 @@ http://www.mouser.it/ProductDetail/Alpha-Taiwan/RV141F-40E3-18BL-B10K/?qs=rXqtSH
 <connect gate="B" pin="1" pad="11"/>
 <connect gate="B" pin="2" pad="12"/>
 <connect gate="B" pin="3" pad="13"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SEPAR" package="DG-PIN">
+<connects>
+<connect gate="A" pin="1" pad="1-1"/>
+<connect gate="A" pin="2" pad="1-2"/>
+<connect gate="A" pin="3" pad="1-3"/>
+<connect gate="B" pin="1" pad="2-1"/>
+<connect gate="B" pin="2" pad="2-2"/>
+<connect gate="B" pin="3" pad="2-3"/>
 </connects>
 <technologies>
 <technology name=""/>

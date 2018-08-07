@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="0.25" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="0" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -67,7 +67,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="3" fill="10" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 </layers>
 <library>
 <description>&lt;b&gt;Electronic logos&lt;/b&gt;&lt;p&gt;</description>
@@ -16005,6 +16005,190 @@
 <vertex x="3.716325" y="1.992475" curve="-91.129981"/>
 <vertex x="3.2163375" y="2.5521625" curve="-91.298388"/>
 <vertex x="3.716325" y="3.1043875" curve="-57.699234"/>
+</polygon>
+</package>
+<package name="TELESCOPE">
+<polygon width="0.0254" layer="21">
+<vertex x="0.79375" y="5.207"/>
+<vertex x="2.1463" y="5.55625"/>
+<vertex x="2.0447" y="5.73405"/>
+<vertex x="1.9304" y="5.98805"/>
+<vertex x="1.8288" y="6.2992"/>
+<vertex x="1.74625" y="6.6294"/>
+<vertex x="1.7018" y="6.85165"/>
+<vertex x="1.6764" y="7.11835"/>
+<vertex x="1.67005" y="7.3279"/>
+<vertex x="1.68275" y="7.49935"/>
+<vertex x="0.34925" y="7.19455"/>
+<vertex x="0.3175" y="7.18185"/>
+<vertex x="0.2921" y="7.1628"/>
+<vertex x="0.2667" y="7.14375"/>
+<vertex x="0.23495" y="7.112"/>
+<vertex x="0.2032" y="7.06755"/>
+<vertex x="0.18415" y="7.0104"/>
+<vertex x="0.1651" y="6.9342"/>
+<vertex x="0.1524" y="6.87705"/>
+<vertex x="0.14605" y="6.34365"/>
+<vertex x="0.15875" y="6.26745"/>
+<vertex x="0.1778" y="6.1595"/>
+<vertex x="0.20955" y="6.0452"/>
+<vertex x="0.24765" y="5.91185"/>
+<vertex x="0.2921" y="5.79755"/>
+<vertex x="0.34925" y="5.6769"/>
+<vertex x="0.3937" y="5.56895"/>
+<vertex x="0.45085" y="5.4864"/>
+<vertex x="0.48895" y="5.41655"/>
+<vertex x="0.55245" y="5.34035"/>
+<vertex x="0.62865" y="5.27685"/>
+<vertex x="0.6858" y="5.22605"/>
+<vertex x="0.8001" y="5.207"/>
+</polygon>
+<polygon width="0.0254" layer="21">
+<vertex x="2.29235" y="8.10895"/>
+<vertex x="4.1275" y="8.5598"/>
+<vertex x="4.12115" y="8.4836"/>
+<vertex x="4.1148" y="8.23595"/>
+<vertex x="4.10845" y="8.001"/>
+<vertex x="4.12115" y="7.72795"/>
+<vertex x="4.1529" y="7.55015"/>
+<vertex x="4.2037" y="7.3152"/>
+<vertex x="4.24815" y="7.1374"/>
+<vertex x="4.3053" y="6.94055"/>
+<vertex x="4.3561" y="6.76275"/>
+<vertex x="4.4196" y="6.54685"/>
+<vertex x="4.47675" y="6.4135"/>
+<vertex x="4.54025" y="6.25475"/>
+<vertex x="4.6101" y="6.12775"/>
+<vertex x="4.70535" y="5.969"/>
+<vertex x="4.83235" y="5.78485"/>
+<vertex x="3.09245" y="5.3213"/>
+<vertex x="3.02895" y="5.3086"/>
+<vertex x="2.9464" y="5.30225"/>
+<vertex x="2.8829" y="5.31495"/>
+<vertex x="2.80035" y="5.35305"/>
+<vertex x="2.7305" y="5.3975"/>
+<vertex x="2.6416" y="5.4864"/>
+<vertex x="2.55905" y="5.58165"/>
+<vertex x="2.45745" y="5.73405"/>
+<vertex x="2.3876" y="5.8801"/>
+<vertex x="2.3114" y="6.03885"/>
+<vertex x="2.2352" y="6.2103"/>
+<vertex x="2.1717" y="6.39445"/>
+<vertex x="2.11455" y="6.6421"/>
+<vertex x="2.06375" y="6.86435"/>
+<vertex x="2.03835" y="7.10565"/>
+<vertex x="2.032" y="7.4676"/>
+<vertex x="2.05105" y="7.62635"/>
+<vertex x="2.07645" y="7.77875"/>
+<vertex x="2.11455" y="7.8867"/>
+<vertex x="2.159" y="7.98195"/>
+<vertex x="2.21615" y="8.05815"/>
+<vertex x="2.26695" y="8.09625"/>
+</polygon>
+<polygon width="0.0254" layer="21">
+<vertex x="5.79755" y="5.61975"/>
+<vertex x="9.87425" y="6.6167"/>
+<vertex x="9.91235" y="6.6548"/>
+<vertex x="9.95045" y="6.6929"/>
+<vertex x="9.9822" y="6.73735"/>
+<vertex x="9.9949" y="6.77545"/>
+<vertex x="10.0076" y="6.86435"/>
+<vertex x="9.25195" y="9.98855"/>
+<vertex x="9.21385" y="10.0457"/>
+<vertex x="9.15035" y="10.09015"/>
+<vertex x="9.07415" y="10.1219"/>
+<vertex x="8.97255" y="10.1473"/>
+<vertex x="8.82015" y="10.12825"/>
+<vertex x="4.85775" y="9.13765"/>
+<vertex x="4.79425" y="9.1186"/>
+<vertex x="4.73075" y="9.07415"/>
+<vertex x="4.699" y="9.04875"/>
+<vertex x="4.66725" y="9.01065"/>
+<vertex x="4.6355" y="8.95985"/>
+<vertex x="4.60375" y="8.90905"/>
+<vertex x="4.57835" y="8.83285"/>
+<vertex x="4.55295" y="8.7757"/>
+<vertex x="4.52755" y="8.69315"/>
+<vertex x="4.4958" y="8.55345"/>
+<vertex x="4.4704" y="8.3185"/>
+<vertex x="4.4704" y="7.9883"/>
+<vertex x="4.4958" y="7.75335"/>
+<vertex x="4.5212" y="7.56285"/>
+<vertex x="4.5466" y="7.41045"/>
+<vertex x="4.57835" y="7.28345"/>
+<vertex x="4.60375" y="7.18185"/>
+<vertex x="4.6228" y="7.08025"/>
+<vertex x="4.65455" y="6.97865"/>
+<vertex x="4.699" y="6.82625"/>
+<vertex x="4.7498" y="6.69925"/>
+<vertex x="4.80695" y="6.57225"/>
+<vertex x="4.85775" y="6.44525"/>
+<vertex x="4.9022" y="6.34365"/>
+<vertex x="4.95935" y="6.2484"/>
+<vertex x="5.01015" y="6.1468"/>
+<vertex x="5.06095" y="6.0706"/>
+<vertex x="5.1308" y="5.94995"/>
+<vertex x="5.1816" y="5.8801"/>
+<vertex x="5.2324" y="5.82295"/>
+<vertex x="5.30225" y="5.7658"/>
+<vertex x="5.3721" y="5.7023"/>
+<vertex x="5.44195" y="5.65785"/>
+<vertex x="5.5499" y="5.6134"/>
+<vertex x="5.7785" y="5.6134"/>
+</polygon>
+<polygon width="0.0254" layer="21">
+<vertex x="3.4671" y="5.03555"/>
+<vertex x="5.0927" y="5.4356"/>
+<vertex x="5.1435" y="5.3594"/>
+<vertex x="5.18795" y="5.23875"/>
+<vertex x="5.21335" y="5.1435"/>
+<vertex x="5.2324" y="5.0165"/>
+<vertex x="5.23875" y="4.88315"/>
+<vertex x="5.2324" y="4.75615"/>
+<vertex x="5.1943" y="4.66725"/>
+<vertex x="5.0927" y="4.43865"/>
+<vertex x="5.08" y="4.4069"/>
+<vertex x="7.46125" y="0.6096"/>
+<vertex x="7.47395" y="0.5461"/>
+<vertex x="7.4676" y="0.48895"/>
+<vertex x="7.44855" y="0.4064"/>
+<vertex x="7.38505" y="0.32385"/>
+<vertex x="7.33425" y="0.2921"/>
+<vertex x="7.2644" y="0.2286"/>
+<vertex x="7.1882" y="0.19685"/>
+<vertex x="7.13105" y="0.17145"/>
+<vertex x="7.0104" y="0.18415"/>
+<vertex x="6.9088" y="0.23495"/>
+<vertex x="6.82625" y="0.31115"/>
+<vertex x="6.75005" y="0.42545"/>
+<vertex x="4.699" y="3.6957"/>
+<vertex x="4.69265" y="0.22225"/>
+<vertex x="4.6609" y="0.14605"/>
+<vertex x="4.6101" y="0.08255"/>
+<vertex x="4.5085" y="0.01905"/>
+<vertex x="4.41325" y="0"/>
+<vertex x="4.24815" y="0"/>
+<vertex x="4.1275" y="0.0508"/>
+<vertex x="4.064" y="0.1016"/>
+<vertex x="4.01955" y="0.1778"/>
+<vertex x="4.0005" y="0.2286"/>
+<vertex x="4.0132" y="3.68935"/>
+<vertex x="1.8669" y="0.32385"/>
+<vertex x="1.80975" y="0.254"/>
+<vertex x="1.7526" y="0.2032"/>
+<vertex x="1.6637" y="0.17145"/>
+<vertex x="1.524" y="0.1778"/>
+<vertex x="1.4351" y="0.23495"/>
+<vertex x="1.3208" y="0.3048"/>
+<vertex x="1.27" y="0.3683"/>
+<vertex x="1.2446" y="0.4318"/>
+<vertex x="1.2446" y="0.64135"/>
+<vertex x="3.62585" y="4.42595"/>
+<vertex x="3.5814" y="4.50215"/>
+<vertex x="3.5306" y="4.59105"/>
+<vertex x="3.5052" y="4.6736"/>
+<vertex x="3.48615" y="4.76885"/>
+<vertex x="3.46075" y="4.953"/>
 </polygon>
 </package>
 </packages>

@@ -14900,6 +14900,22 @@ Source: &lt;a href="http://datasheets.maxim-ic.com/en/ds/MAX8559.pdf"&gt; Data s
 <text x="-5.08" y="17.78" size="1.27" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-15.24" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="MAX6776">
+<pin name="LBI" x="-10.16" y="0" visible="off" length="short" direction="in"/>
+<pin name="|LBO" x="10.16" y="0" visible="off" length="short" direction="out" rot="R180"/>
+<pin name="BATT" x="0" y="12.7" visible="pad" length="short" direction="pwr" rot="R270"/>
+<pin name="GND" x="0" y="-12.7" visible="off" length="short" direction="pwr" rot="R90"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="-5.08" y="0" size="1.27" layer="95" align="center">LBI</text>
+<text x="5.08" y="0" size="1.27" layer="95" align="center">!LBO</text>
+<text x="0" y="7.62" size="1.27" layer="95" align="center">BATT</text>
+<text x="0" y="-7.62" size="1.27" layer="95" align="center">GND</text>
+<text x="0" y="-2.54" size="1.27" layer="95" align="center">MAX6776</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MAX130CPL" prefix="IC">
@@ -33936,6 +33952,24 @@ Source: &lt;a href="http://datasheets.maxim-ic.com/en/ds/MAX8559.pdf"&gt; Data s
 <connect gate="G$1" pin="P$7" pad="7"/>
 <connect gate="G$1" pin="P$8" pad="8"/>
 <connect gate="G$1" pin="P$9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX6776" prefix="U">
+<gates>
+<gate name="G$1" symbol="MAX6776" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SC70-5L">
+<connects>
+<connect gate="G$1" pin="BATT" pad="5"/>
+<connect gate="G$1" pin="GND" pad="1 2"/>
+<connect gate="G$1" pin="LBI" pad="3"/>
+<connect gate="G$1" pin="|LBO" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
